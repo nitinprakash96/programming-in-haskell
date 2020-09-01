@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1474ce7741b2210610780982659a027414ad3cb100a6dbf94f3a76f62417a52a
+-- hash: c503157be4d8933fa8cfb0c9bd0d9d6ade835564b78f08bf913a6a30678e14ec
 
 name:           programming-in-haskell
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Chapter8.AbstractMachine
       Chapter8.Tautology
       Chapter9.Countdown
       Lib
